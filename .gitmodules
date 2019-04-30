@@ -1,0 +1,3 @@
+[submodule "modules/common/base"]
+	path = modules/common/base
+	url = ../common-base

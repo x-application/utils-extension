@@ -6,3 +6,7 @@ pluginManagement {
     }
 }
 rootProject.name = 'utils-extension'
+
+include 'common-base'
+
+project(':common-base').projectDir = new File(settingsDir, './modules/common/base')
