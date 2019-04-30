@@ -19,9 +19,9 @@ import x.app.utils.extension.execute
 abstract class AbstractExtensionInterceptor<T>(
         private val repository: Repository<T>,
         private val executor: IExtensionExecutor
-) : MessageHandlerInterceptor<CommandMessage<Any>> {
+) : MessageHandlerInterceptor<CommandMessage<*>> {
 
-    override fun handle(unitOfWork: UnitOfWork<out CommandMessage<Any>>, interceptorChain: InterceptorChain): Any {
+    override fun handle(unitOfWork: UnitOfWork<out CommandMessage<*>>, interceptorChain: InterceptorChain): Any {
         val command = unitOfWork.message.payload
         var point: ICommandExtensionPoint<AbstractCommand<*>, T>? = null
         if (command is AbstractCommand<*>) {
