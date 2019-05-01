@@ -3,8 +3,8 @@ package x.app.utils.extension.annotation
 import kotlin.reflect.KClass
 
 /**
- *   @Project: service-account
- *   @Package: x.app.service.account.extension.annotation
+ *   @Project: utils-extension
+ *   @Package: x.app.utils.extension.annotation
  *   @Author:  Iamee
  *   @Date:    2019-04-30 23:36
  */

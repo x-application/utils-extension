@@ -5,8 +5,8 @@ import kotlin.reflect.KClass
 import kotlin.reflect.full.isSubclassOf
 
 /**
- *   @Project: service-account
- *   @Package: x.app.service.account.extension
+ *   @Project: utils-extension
+ *   @Package: x.app.utils.extension
  *   @Author:  Iamee
  *   @Date:    2019-04-30 22:25
  */

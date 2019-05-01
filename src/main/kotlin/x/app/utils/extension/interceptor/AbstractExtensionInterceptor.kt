@@ -6,7 +6,6 @@ import org.axonframework.messaging.MessageHandlerInterceptor
 import org.axonframework.messaging.unitofwork.UnitOfWork
 import org.axonframework.modelling.command.Repository
 import x.app.common.AbstractCommand
-import x.app.common.ICommandExtensionPoint
 import x.app.utils.extension.IExtensionExecutor
 import x.app.utils.extension.execute
 

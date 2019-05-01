@@ -4,8 +4,8 @@ import org.axonframework.modelling.command.Repository
 import x.app.common.AbstractCommand
 
 /**
- *   @Project: common-base
- *   @Package: x.app.common
+ *   @Project: utils-extension
+ *   @Package: x.app.utils.extension.point
  *   @Author:  Iamee
  *   @Date:    2019-04-30 23:54
  */
