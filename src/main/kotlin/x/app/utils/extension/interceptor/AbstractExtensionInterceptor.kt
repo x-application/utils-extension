@@ -8,6 +8,7 @@ import org.axonframework.modelling.command.Repository
 import x.app.common.AbstractCommand
 import x.app.utils.extension.IExtensionExecutor
 import x.app.utils.extension.execute
+import x.app.utils.extension.point.ICommandExtensionPoint
 
 /**
  *   @Project: utils-extension

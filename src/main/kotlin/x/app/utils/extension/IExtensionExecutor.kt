@@ -3,6 +3,7 @@ package x.app.utils.extension
 import x.app.utils.extension.annotation.Extension
 import kotlin.reflect.KClass
 import kotlin.reflect.full.isSubclassOf
+import kotlin.reflect.jvm.internal.impl.load.kotlin.JvmType
 
 /**
  *   @Project: utils-extension
