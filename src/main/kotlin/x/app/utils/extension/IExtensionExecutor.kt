@@ -3,10 +3,11 @@ package x.app.utils.extension
 import x.app.utils.extension.annotation.Extension
 import kotlin.reflect.KClass
 import kotlin.reflect.full.isSubclassOf
+import kotlin.reflect.jvm.internal.impl.load.kotlin.JvmType
 
 /**
- *   @Project: service-account
- *   @Package: x.app.service.account.extension
+ *   @Project: utils-extension
+ *   @Package: x.app.utils.extension
  *   @Author:  Iamee
  *   @Date:    2019-04-30 22:25
  */
