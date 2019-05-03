@@ -1,5 +1,6 @@
 package x.app.utils.extension.annotation
 
+import org.springframework.stereotype.Component
 import kotlin.reflect.KClass
 
 /**
@@ -8,6 +9,7 @@ import kotlin.reflect.KClass
  *   @Author:  Iamee
  *   @Date:    2019-04-30 23:36
  */
+@Component
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
 annotation class Extension(
